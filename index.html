@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #fff;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.hero img {
+    width: 250px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+/* SECTION */
+section {
+    padding: 60px 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #1e293b;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* PROJECTS */
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact a {
+    color: #38bdf8;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>YourName</h1>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h2>Hi, I'm <span>Your Name</span></h2>
+        <p>MSc Computer Science Student</p>
+        <br>
+        <p>Aspiring Web Developer | Programmer</p>
+    </div>
+    <img src="your-photo.jpg" alt="Profile">
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am currently pursuing my MSc in Computer Science, with a strong interest in web development and software engineering. I am continuously learning new technologies and building projects to enhance my technical skills.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Java</span>
+        <span>Python</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+        <h3>Student Management System</h3>
+        <p>Developed using Java and MySQL.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio using HTML & CSS.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>IoT Walking Stick</h3>
+        <p>Smart stick for visually impaired using sensors.</p>
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+        <p>Email: your@email.com</p>
+        <p>GitHub: github.com/yourname</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
